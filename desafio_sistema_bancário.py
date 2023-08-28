@@ -47,6 +47,6 @@ SALDO: R$ {saldo:.2f}
         print(f'SALDO:    R$ {saldo:.2f}')
         print('*************************')
     elif opção == '4':
-        break
+        exit()
     else:
         print('OPÇÃO INVÁLIDA, POR FAVOR SELECIONE NOVAMENTE A OPERAÇÃO DESEJADA.')
