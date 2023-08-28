@@ -1,4 +1,10 @@
-menu = '''
+saldo = 0
+limite_saque = 500
+limite_saques = 3
+extrato = ''
+
+while True:
+    menu = f'''
 ******** MENU ********
 
     [1] DEPOSITAR
@@ -6,14 +12,9 @@ menu = '''
     [3] EXTRATO
     [4] SAIR
 
+SALDO: R$ {saldo:.2f}
 ======================
 '''
-saldo = 0
-limite_saque = 500
-limite_saques = 3
-extrato = ''
-
-while True:
     print(menu)
     opção = input()
     if opção == '1':
