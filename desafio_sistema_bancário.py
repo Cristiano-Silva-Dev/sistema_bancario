@@ -35,12 +35,12 @@ while True:
             print('VOCÊ ATINGIU O LIMITE DE SAQUES DIÁRIO!')
         else:
             saldo -= saque
-            extrato += f'SAQUE: R$ {saque:.2f}\n'
+            extrato += f'SAQUE:    R$ {saque:.2f}\n'
             limite_saques -= 1
     elif opção == '3':
         print('******** EXTRATO ********')
         print(extrato)
-        print(f'SALDO: R$ {saldo:.2f}')
+        print(f'SALDO:    R$ {saldo:.2f}')
         print('*************************')
     elif opção == '4':
         break
